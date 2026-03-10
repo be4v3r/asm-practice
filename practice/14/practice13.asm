@@ -1,4 +1,4 @@
-; practice3.asm
+; practice14.asm
 ; I/O: int 80h
 ; blocks: I/O, parse, math/logic, loops, memory
 
@@ -6,7 +6,7 @@ BITS 32
 GLOBAL _start
 
 SECTION .data
-prompt db "practice3: see README.md", 10
+prompt db "practice14: see README.md", 10
 prompt_len equ $-prompt
 
 SECTION .bss
